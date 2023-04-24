@@ -16,5 +16,5 @@ podman tag localhost/ansible-execution-env:latest quay.io/yourusername/ansible-e
 # Login to container registry
 podman login quay.io
 
-# Push the execution container
+# Push the execution environment
 podman push quay.io/yourusername/ansible-execution-env:latest
