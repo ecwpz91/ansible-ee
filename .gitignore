@@ -1,6 +1,5 @@
 # config file (do not cache tokens)
-.ansible.cfg
-./ansible.cfg
+ansible.cfg
 
 # build folder
 context/
