@@ -9,3 +9,12 @@ ansible-builder create
 
 # Build the project
 ansible-builder build
+
+# Tag the container
+podman tag localhost/ansible-execution-env:latest quay.io/yourusername/ansible-execution-env:latest
+
+# Login to container registry
+podman login quay.io
+
+# Push the execution container
+podman push quay.io/yourusername/ansible-execution-env:latest
