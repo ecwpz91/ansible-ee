@@ -66,8 +66,20 @@ collections:
   - name: openvswitch.openvswitch
     version: 2.1.0
 
-#  - name: redhat.insights
-#    version: 1.0.7
+  - name: redhatofficial.rhel8_pci_dss
+    version: 0.1.66
+
+#  - name: redhatofficial.rhel8_stig
+#    version: 0.1.66
+
+#  - name: redhatofficial.rhel8_cui
+#    version: 0.1.66
+
+#  - name: redhatofficial.rhel8_hipaa
+#    version: 0.1.66
+
+  - name: redhat.insights
+    version: 1.0.7
 
 #  - name: redhat.openshift
 #    version: 2.1.0
